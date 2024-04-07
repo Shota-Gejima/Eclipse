@@ -8,10 +8,10 @@ public class lesson5 {
 		System.out.println("");
 		email("練習5-2", "aaa@bbb.jp", "javaコード練習");
 		email("aaa@bbb", "javaコード練習");
-		double triangleArea=calcTriangleArea(3.0, 5.0);
-		System.out.println("円の面積は"+triangleArea);
-		double circleArea=calcCircleArea(3.0);
-		System.out.println("円の面積は"+circleArea);
+		double triangleArea = calcTriangleArea(3.0, 5.0);
+		System.out.println("円の面積は" + triangleArea);
+		double circleArea = calcCircleArea(3.0);
+		System.out.println("円の面積は" + circleArea);
 	}
 
 	//	コード5-1
@@ -37,15 +37,16 @@ public class lesson5 {
 		System.out.println("件名:" + "無題");
 		System.out.println("本文:" + text);
 	}
-//	コード5-4
+
+	//	コード5-4
 	public static double calcTriangleArea(double bottom, double height) {
-		double triangleArea = (bottom*height)/2;
+		double triangleArea = (bottom * height) / 2;
 		return triangleArea;
 	}
-	
+
 	public static double calcCircleArea(double radius) {
 		double PI = 3.14;
-		double circleArea = radius*radius*PI;
+		double circleArea = radius * radius * PI;
 		return circleArea;
 	}
 
